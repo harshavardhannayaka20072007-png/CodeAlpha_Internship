@@ -60,7 +60,7 @@ plt.xlabel("Date")
 plt.ylabel("Estimated Unemployment Rate (%)")
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig("covid_unemployment_trend.png")
+plt.savefig("task2/covid_unemployment_trend.png")
 plt.close()
 
 # Plot 2: Average Unemployment Rate by Region
@@ -83,7 +83,7 @@ plt.title(
 plt.xlabel("Average Unemployment Rate (%)")
 plt.ylabel("Region")
 plt.tight_layout()
-plt.savefig("regional_unemployment.png")
+plt.savefig("task2/regional_unemployment.png")
 plt.close()
 
 print(
