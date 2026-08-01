@@ -13,7 +13,7 @@ def main():
 
     # 1. Load the Dataset from downloaded CSV file
     try:
-        df = pd.read_csv("Iris.csv")
+        df = pd.read_csv("task1/Iris.csv")
         print("\n[INFO] Dataset successfully loaded from local CSV file!")
     except FileNotFoundError:
         print("\n[ERROR] 'Iris.csv' not found! Please download the dataset and place it in this folder.")

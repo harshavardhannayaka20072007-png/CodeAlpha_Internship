@@ -4,8 +4,7 @@ import pandas as pd
 import seaborn as sns
 
 # 1. Load the Dataset
-dataset_path = "Unemployment_Rate_upto_11_2020.csv"
-
+dataset_path = "task2/Unemployment_Rate_upto_11_2020.csv"
 try:
   df = pd.read_csv(dataset_path)
   print("[INFO] Dataset successfully loaded!")
